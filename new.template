@@ -1,0 +1,69 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Metadata": {
+    "AWS::CloudFormation::Designer": {
+      "d5b24765-98a2-4079-8be5-6354e8742302": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 440,
+          "y": 120
+        },
+        "z": 0
+      },
+      "26c4a1cc-2ed6-404f-b287-23d03509388e": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 440,
+          "y": 250
+        },
+        "z": 0
+      },
+      "cb7105dc-255e-47c5-8212-545a630c7e9c": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 660,
+          "y": 160
+        },
+        "z": 0
+      }
+    }
+  },
+  "Resources": {
+    "EC2I3E1X8": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {},
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "d5b24765-98a2-4079-8be5-6354e8742302"
+        }
+      }
+    },
+    "EC2I52FBX": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {},
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "26c4a1cc-2ed6-404f-b287-23d03509388e"
+        }
+      }
+    },
+    "EC2EIP5AZ3T": {
+      "Type": "AWS::EC2::EIP",
+      "Properties": {},
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "cb7105dc-255e-47c5-8212-545a630c7e9c"
+        }
+      }
+    }
+  }
+}
